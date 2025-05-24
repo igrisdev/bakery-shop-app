@@ -8,14 +8,7 @@ import {
 } from '@ionic/angular/standalone';
 
 import { addIcons } from 'ionicons';
-import {
-  chatboxEllipses,
-  chevronDownOutline,
-  heart,
-  home,
-  location,
-  person,
-} from 'ionicons/icons';
+import { chatboxEllipses, heart, home, location, person } from 'ionicons/icons';
 
 @Component({
   selector: 'app-tabs',
@@ -31,7 +24,6 @@ export class TabsPage {
       heart,
       chatboxEllipses,
       person,
-      chevronDownOutline,
     });
   }
 }
