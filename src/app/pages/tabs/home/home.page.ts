@@ -37,7 +37,6 @@ import {
     IonIcon,
     IonLabel,
     IonItem,
-    IonContent,
     IonHeader,
     IonToolbar,
     CommonModule,
