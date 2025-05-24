@@ -10,7 +10,18 @@ import {
   IonIcon,
   IonText,
   IonButton,
+  IonRow,
+  IonCol,
+  IonSearchbar,
 } from '@ionic/angular/standalone';
+import { addIcons } from 'ionicons';
+import {
+  chevronDownOutline,
+  location,
+  cart,
+  notifications,
+  options,
+} from 'ionicons/icons';
 
 @Component({
   selector: 'app-home',
@@ -18,6 +29,9 @@ import {
   styleUrls: ['./home.page.scss'],
   standalone: true,
   imports: [
+    IonSearchbar,
+    IonCol,
+    IonRow,
     IonButton,
     IonText,
     IonIcon,
@@ -31,7 +45,9 @@ import {
   ],
 })
 export class HomePage implements OnInit {
-  constructor() {}
+  constructor() {
+    addIcons({ location, chevronDownOutline, cart, notifications, options });
+  }
 
   ngOnInit() {}
 }
