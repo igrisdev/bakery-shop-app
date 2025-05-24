@@ -30,6 +30,7 @@ import { CategoryService } from 'src/app/services/category/category.service';
 import { ProductService } from 'src/app/services/product/product.service';
 import { Banner } from 'src/app/interfaces/banner.interface';
 import { BannerService } from 'src/app/services/banner/banner.service';
+import { CategoriesComponent } from '../../../components/categories/categories.component';
 
 @Component({
   selector: 'app-home',
@@ -52,6 +53,7 @@ import { BannerService } from 'src/app/services/banner/banner.service';
     IonContent,
     ListHeadingComponent,
     BannerComponent,
+    CategoriesComponent,
   ],
 })
 export class HomePage implements OnInit {
