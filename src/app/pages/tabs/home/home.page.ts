@@ -23,6 +23,7 @@ import {
   options,
 } from 'ionicons/icons';
 import { ListHeadingComponent } from '../../../components/list-heading/list-heading.component';
+import { BannerComponent } from '../../../components/banner/banner.component';
 
 @Component({
   selector: 'app-home',
@@ -44,6 +45,7 @@ import { ListHeadingComponent } from '../../../components/list-heading/list-head
     FormsModule,
     IonContent,
     ListHeadingComponent,
+    BannerComponent,
   ],
 })
 export class HomePage implements OnInit {
